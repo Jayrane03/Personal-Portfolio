@@ -1,0 +1,237 @@
+/* All Active  class are here */
+.toog_ball.active{
+    background-color: #032030;
+    transition: 0.4s;
+    transform: translateX(-25px);
+    
+}
+/* CSS */
+.active {
+    transition: all 0.3s ease; /* Example transition with 0.3s duration and ease timing function */
+  }
+  
+.project-cards.active{
+    background-color: #032030;
+    margin-top: 0;
+    
+}
+/* .nav_list li a.active{
+    color: #032030;
+} */
+.l-header.active{
+    background-color: #032030;
+}
+.but button.active{
+    border: none;
+    background-color: #032030;
+    color: #f0f3fa;
+}
+.but button:hover.active{
+   border: none;
+    background-color: #d5deef;
+    color:  #032030;
+}
+.skills.active{
+    background-color:#032030;
+    
+}
+
+.res_btn a:hover.active{
+    border: none;
+    background-color: #d5deef;
+    color:  #032030;
+}
+
+.about_icons.active{
+    background-color: #032030;
+    color: #d5deef;
+}
+.about_icons:hover.active{
+    background-color: #d5deef;
+    color: #032030;
+}
+
+
+.sliderd.active{
+    background-color: #004d74;
+}
+.section-title.active{
+    color: #d5deef;
+    margin-top: 0;
+    padding-top: 10px;
+}
+.section-title.active::after{
+    position: absolute;
+    content: '';
+    width: 32px;
+    bottom: 0;
+    top: 3.2rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: .19rem;
+    background-color: #d5deef;
+
+
+}
+.project-cont{
+    margin-bottom: 0 !important;
+}
+.skill_box h3.acitve{
+    color: #d5deef;
+}
+.projects.active{
+ 
+    background-color: #004d74;
+}
+.skill_name.active{
+    background-color: #032030;
+    
+}
+.skill_name_first.active{
+    background-color: #004d74;
+    color: #d5deef;
+}
+.button_filter.active{
+    color: #d5deef;
+}
+.project-cont {
+    max-width: 1370px;
+    display: block;
+    padding-bottom: 40px;
+    margin: 20px auto;
+    
+}
+.project-box {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    margin:50px 0;
+}
+.contact.active{
+    background-color: #032030;
+}
+
+.about.active{
+    padding-bottom: 80px;
+    background-color: #004d74;
+}
+.about_profession.active{
+    color: #d5deef;
+    
+}
+.about_text.active{
+    color: #d5deef;
+    
+}
+.about_subtitile.active{
+    color: #d5deef;
+    
+}
+
+.about_image img {
+    max-width: 120%;
+    /* margin: auto; */
+    position: absolute;
+    height: auto;
+    /* padding: 0px; */
+    /* display: block; */
+    top: 1px;
+    left: -23px;
+}
+.about_icons.active{
+    color: #d5deef;
+}
+.down_button.active{
+    background-color: #032030;
+    border: none;
+    color: #d5deef;
+}
+.skill_subtit.active{
+    color: #d5deef;
+}
+.form_input_tag.active{
+    
+   background-color: #d5deef;
+}
+.form_input_tag.active::placeholder {
+    color: #032030;
+    font-weight: 600;
+}
+.dark_mode_text.active{
+    color: #d5deef;
+}
+.con-sub.active{
+    background-color: #d5deef;
+    color: #032030;
+    border: none;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+.footer.active{
+    background-color: #5361FF;
+    width: 100vw;
+    height: 100px;
+    align-items: center;
+    margin-top: 1px;
+}
+@media screen and (max-width:768px){
+    .footer.active{
+        background-color: #5361FF;
+        width: 100vw;
+        height: 100px;
+        align-items: center;
+        margin-top: 265px;
+    }
+    .hor-line.active{
+        border-bottom: 3.5px solid #d5deef;
+    }
+    .about_social{
+        top: 97% !important;
+        left: 18% !important;
+    position: absolute;
+    }
+    .abt-img-content{
+        height: 469px;
+        display: block;
+        margin: 1px -71px !important;
+    }
+    .project-cards.active{
+        margin:  20px 0px;
+    }
+}
+.footer-distributed.active{
+    background-color: #004d74
+}
+.con-container.active{
+    margin-bottom: 51px;
+}
+.arrow_icon.active{
+    position: absolute;
+    z-index: 1;
+    color: #032030;
+    background-color: #d5deef;
+    border: none;
+}
+.vertical-line.active{
+    border-left: 3.5px solid #d5deef;
+}
+
+.shape_blob.active path{
+    fill: #d5deef;
+   
+}
+.arr-icon.active{
+    color: #032030;
+}
+.arrow_icon:hover .arr-icon.active{
+    color: #032030;
+}
+.cont-img.active{
+    border: 5px solid #d5deef;
+}
+
+.visit.active{
+    color: #032030;
+}

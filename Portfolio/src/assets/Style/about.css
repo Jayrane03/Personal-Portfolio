@@ -1,0 +1,118 @@
+
+  
+  .top {
+    animation: rotate 15s infinite linear;
+  }
+  
+  .middle {
+    animation: rotate 18s infinite reverse linear;
+  }
+  
+  .bottom {
+    animation: rotate 20s infinite linear;
+  }
+  
+  .blobs {
+    transition: transform 5s;
+  }
+  
+  .blobs:hover {
+    transform: translate(100px, 100px) scale(0.0);
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: translate(100px, 100px) rotate(0deg);
+    }
+    100% {
+      transform: translate(100px, 100px) rotate(359deg);
+    }
+  }
+
+
+  
+
+@media screen and (max-width:768px){
+ body{
+  min-height: 100vh;
+
+  margin: var(--header-height) 0 0 0;
+ 
+ }
+    .about_container{
+        display: none;
+        flex-direction: column;
+    }
+  
+    .vertical-line{
+        display: none;
+    }
+    .abt-right{
+      text-align: center;
+      /* width: 97vw; */
+      margin: -70px 010px;
+      height: 83vh;
+    }
+    .hor-line{
+        margin: 20px 35px;
+        width: 300px;
+        border-bottom: 3.5px solid #5361FF;
+    }
+    .shape_col{
+      
+    height: 219px;
+    width: 421px !important;
+    margin: auto;
+    transition: 0.5s;
+    }
+    .image_abt{
+      position: absolute;
+      /* z-index: 1000; */
+      margin: -160px 129px !important;
+      height: 100px;
+      width: 231px;
+    }
+   
+   
+}
+
+@media only screen and (min-width: 390px) and (max-width: 844px) {
+    /* Your CSS styles for screens within this range */
+    .part{
+        height: 33vh !important;
+        display: grid;
+        overflow: visible;
+        column-gap: 5px;
+        /* margin: 0 0px; */
+        grid-template-columns: auto auto auto;
+    }
+    
+  }
+  @media only screen and (min-width: 412px) and (max-width: 915px) {
+    /* Your CSS styles for screens within this range */
+    .part{
+        height: 32vh;
+        display: grid;
+        overflow: visible;
+        column-gap: 5px;
+        /* margin: 0 0px; */
+        grid-template-columns: auto auto auto;
+    }
+    
+  }
+  
+  
+
+/* Contact css  */
+.contact-right form{
+    /* width: 50vw; */
+    display: flex;
+    flex-direction: column;
+}
+.contact-right  form input{
+  width: 25vw;
+}
+
+.footer {
+  margin-top: 155px;
+}
