@@ -8,6 +8,7 @@ import '../assets/Style/skill.css';
 import '../assets/Style/slider.css';
 import '../assets/Style/main.css';
 import '../assets/Style/active_class.css';
+import  myResume from "../assets/Docs/Jay_Rane_Resume.pdf"
  // Import your CSS file
 
 const About = () => {
@@ -85,7 +86,7 @@ const About = () => {
                     </p>
                     {/* Download button */}
                     <div id="butoo" className="res_btn">
-         <a href="../assets/Docs/My_resume.pdf" download className="btn down_button">Download Resume</a>
+         <a href={myResume} download className="btn down_button">Download Resume</a>
                         </div>
 
                 </div>
