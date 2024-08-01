@@ -88,7 +88,7 @@ const About = () => {
                     <div id="butoo" className="res_btn">
          <a href={myResume} download className="btn down_button">Download Resume</a>
                         </div>
-
+                       
                 </div>
             </div>
         </section>

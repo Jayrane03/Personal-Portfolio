@@ -1,6 +1,5 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100&family=Montserrat:ital,wght@1,500&family=Roboto:wght@300&display=swap');
-
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
 /* VARIABLES CSS*/
 :root{
    --header-height : 3rem;
@@ -977,7 +976,7 @@ form textarea::placeholder{
     color:  black;
 }
 /* footer */
-@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
 /* * {
     padding: 0;
     margin: 0;
