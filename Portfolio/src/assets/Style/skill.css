@@ -10,6 +10,9 @@
     position: relative;
     width: 100vw;
 }
+.skill_name_first{
+    padding: 10px 20px;
+}
 .skill_images{
     width: 100vw;
     

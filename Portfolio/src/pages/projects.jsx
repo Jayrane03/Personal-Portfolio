@@ -3,8 +3,9 @@ import project1Image from '../assets/Images/project_1.png';
 import snake_game from '../assets/Images/snake_bg.jpeg'; 
 import todo_list from '../assets/Images/todo-list.jpeg'; 
 import hotel_menu from '../assets/Images/react_app.png'; 
-import crud from '../assets/Images/crud_mern.png'; 
+// import crud from '../assets/Images/crud_mern.png'; 
 import budget from '../assets/Images/dynamic_budget.png'; 
+import brain from '../assets/Images/brain_bost.png'; 
 import '../assets/Style/about.css';
 import '../assets/Style/index_2.css';
 import '../assets/Style/index.css';
@@ -69,21 +70,21 @@ const Projects = () => {
             image: budget, // Use the imported image
             description: "You can plan your budget by using this budget planner.",
             link: "https://planmybudget.netlify.app/",
-            filters: "react"
+            filters: "website"
           },
           { 
             name: "HOTEL-MENU",
             image: hotel_menu, // Use the imported image
             description: "This is react-app for hotel menu.This uses filter function.",
             link: "https://menuforhotel.netlify.app/",
-            filters: "react"
+            filters: "website"
           },
           { 
-            name: "CRUD OPERATION IN MERN STACK",
-            image: crud,
-            description: "This is crud operation app made using .Mern Stack with functionality of image upload",
-            link: "https://crudinmern.netlify.app/",
-            filters: "react"
+            name: "BRAIN BOOST ",
+            image: brain,
+            description: "This is a Education Platform build using Mern Stack.",
+            link: "https://brain-boost-1.onrender.com/",
+            filters: "mern"
           },
         
         // Add more project data here
@@ -105,7 +106,7 @@ const Projects = () => {
                         <li><button className="button_project skill_name_first skill_name" data-filter="all">ALL</button></li>
                         <li><button className="button_project skill_name_first skill_name" data-filter="games">GAMES</button></li>
                         <li><button className="button_project skill_name_first skill_name" data-filter="website">WEBSITE</button></li>
-                        <li><button className="button_project skill_name_first skill_name" data-filter="react">REACT-APP</button></li>
+                        <li><button className="button_project skill_name_first skill_name" data-filter="mern">MERN STACK APP</button></li>
                     </ul>
                 </div>
             </div>
@@ -120,7 +121,7 @@ const Projects = () => {
                                 <div className="info-w">
                                     <h2>{project.name}</h2>
                                     <p>{project.description}</p>
-                                    <button className="visit" type="button" value="New Tab" onClick={() => window.open(project.link)}>Visit <i className="bx bx-right-arrow-alt"></i></button>
+                                    <button className="visit " type="button" value="New Tab" onClick={() => window.open(project.link)}>Visit <i className="bx bx-right-arrow-alt"></i></button>
                                 </div>
                             </div>
                         ))}

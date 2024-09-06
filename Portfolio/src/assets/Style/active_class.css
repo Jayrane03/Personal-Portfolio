@@ -85,11 +85,13 @@
     background-color: #004d74;
 }
 .skill_name.active{
-    background-color: #032030;
-    
-}
-.skill_name_first.active{
+    color: #d5deef;
+
     background-color: #004d74;
+}
+.button_project.active{
+    padding: 10px 20px;
+    background-color: #032030;
     color: #d5deef;
 }
 .button_filter.active{
