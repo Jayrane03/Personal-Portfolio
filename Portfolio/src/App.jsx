@@ -6,6 +6,7 @@ import Skill from './pages/skills';
 import Projects from './pages/projects';
 import Contact from './pages/contact';
 import Footer from './components/footer';
+import CustomCursor from './components/custom_cursor';
 
 const App = () => {
   useEffect(() => {
@@ -46,6 +47,7 @@ const App = () => {
 
   return (
     <>
+    <CustomCursor/>
       <Home />
       <About />
       <Skill />
