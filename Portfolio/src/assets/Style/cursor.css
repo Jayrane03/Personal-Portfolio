@@ -19,6 +19,7 @@
 
 body{
       cursor: none;
+      background-color: #eeeeee;
 }
   
   .page {
@@ -165,7 +166,11 @@ body{
     background-color: white;
     transform-origin: center center;
     transform: translate(-50%, -50%);
-  }
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
   
   .stamp {
     position: absolute;
