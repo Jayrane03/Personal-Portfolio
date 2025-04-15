@@ -7,6 +7,7 @@ import Projects from './pages/projects';
 import Contact from './pages/contact';
 import Footer from './components/footer';
 import CustomCursor from './components/custom_cursor';
+import CertificationSection from './pages/certification';
 
 const App = () => {
   useEffect(() => {
@@ -38,6 +39,7 @@ const App = () => {
     s.reveal(`.skill_part_one`, { origin: "right" });
     s.reveal(`.skill_part_two`, { origin: "left" });
     s.reveal(`.slide`, { origin: "top", duration: 2220, delay: 100 });
+    s.reveal(`.cert-card`, { origin: "bottom", duration: 2220, delay: 100 });
 
     // Clean up function
     return () => {
@@ -51,6 +53,7 @@ const App = () => {
       <Home />
       <About />
       <Skill />
+      <CertificationSection></CertificationSection>
       <Projects />
       <Contact></Contact>
       <div className="icon arrow_icon">
