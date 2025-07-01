@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import  { useEffect } from 'react';
 // import ScrollReveal from './scrollreveal/dist/scrollreveal.esm.js';
 import Home from './pages/home';
 import About from './pages/about';

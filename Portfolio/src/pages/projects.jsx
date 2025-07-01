@@ -1,10 +1,10 @@
-import React, { useEffect } from 'react';
+import  { useEffect } from 'react';
 import { gsap } from 'gsap'; // Import GSAP
 import project1Image from '../assets/Images/project_1.png'; 
 import snake_game from '../assets/Images/snake_bg.jpeg'; 
 import todo_list from '../assets/Images/todo-list.jpeg'; 
 import hotel_menu from '../assets/Images/react_app.png'; 
-import budget from '../assets/Images/dynamic_budget.png'; 
+// import budget from '../assets/Images/dynamic_budget.png'; 
 import brain from '../assets/Images/brain_bost.png'; 
 import '../assets/Style/about.css';
 import '../assets/Style/index_2.css';
@@ -14,7 +14,7 @@ import '../assets/Style/skill.css';
 import '../assets/Style/slider.css';
 import '../assets/Style/main.css';
 import '../assets/Style/active_class.css';
-
+import budget from '../assets/Images/budget.png'; // Importing budget image
 const Projects = () => {
     useEffect(() => {
         const filterButtons = document.querySelectorAll('.button_project');
@@ -85,13 +85,13 @@ const Projects = () => {
             link: "https://add-your-doing.netlify.app/",
             filters: "website"
           },
-          { 
-            name: "DYNAMIC BUDGET PLANNER",
-            image: budget,
-            description: "You can plan your budget using this budget planner.",
-            link: "https://planmybudget.netlify.app/",
-            filters: "website"
-          },
+        //   { 
+        //     name: "DYNAMIC BUDGET PLANNER",
+        //     image: budget,
+        //     description: "You can plan your budget using this budget planner.",
+        //     link: "https://planmybudget.netlify.app/",
+        //     filters: "website"
+        //   },
           { 
             name: "HOTEL-MENU",
             image: hotel_menu,
@@ -104,6 +104,13 @@ const Projects = () => {
             image: brain,
             description: "This is an Education Platform built using the MERN Stack.",
             link: "https://brain-boost-1.onrender.com/",
+            filters: "mern"
+          },
+           { 
+            name: "BudgetAI",
+            image: budget,
+            description: "BudgetAI is a MERN stack application that helps users manage their finances effectively.",
+            link: "https://budget-tracker-frontend-ijfx.onrender.com/",
             filters: "mern"
           },
     ];

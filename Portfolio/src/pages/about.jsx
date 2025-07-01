@@ -8,7 +8,7 @@ import '../assets/Style/skill.css';
 import '../assets/Style/slider.css';
 import '../assets/Style/main.css';
 import '../assets/Style/active_class.css';
-import  myResume from "../assets/Docs/Jay_Rane_Resume.pdf"
+import  myResume from "../assets/Docs/Resume_Jay_04.pdf"
  // Import your CSS file
 
 const About = () => {

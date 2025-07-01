@@ -237,3 +237,10 @@
 .visit.active{
     color: #032030;
 }
+
+
+/* Certification dark mode */
+
+.certifications.active{
+    background-color: #032030;
+}
