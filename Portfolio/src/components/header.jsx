@@ -10,7 +10,7 @@ const Header = () => {
     const [isToggleActive, setIsToggleActive] = useState(false);
 
     useEffect(() => {
-        const items = document.querySelectorAll(".visit,.hor-line, .about_icons, .footer-distributed, .arrow_icon, .con-container, .footer, .con-sub, .dark_mode_text, .form_input_tag, .skill_subtit, .down_button, .about_icons, .about_profession, .about_subtitile, .about_text, .project-cards, .nav_list li a, .l-header, .but button, .section-title, .skills, .sliderd, .skill_box h3, .projects, .contact, .skill_name, .button_filter, .skill_name_first, .about, .vertical-line, .shape_blob, .arr-icon, .cont-img, .res_btn");
+        const items = document.querySelectorAll(".visit,.hor-line, .about_icons, .footer-distributed, .arrow_icon, .con-container, .footer, .con-sub, .dark_mode_text, .form_input_tag, .skill_subtit, .down_button, .about_icons, .about_profession, .about_subtitile, .about_text, .project-cards, .nav_list li a, .l-header, .but button, .section-title, .skills, .sliderd, .skill_box h3, .projects, .contact, .skill_name, .button_filter, .skill_name_first, .about, .vertical-line, .shape_blob, .arr-icon, .cont-img, .res_btn , .orb-container,       .custom-card , #cert-tit");
         items.forEach(item => {
             item.classList.toggle("active", isToggleActive);
             
